@@ -1,0 +1,26 @@
+apiVersion: crd.k8s.amazonaws.com/v1alpha1
+kind: ENIConfig
+metadata: 
+  name: us-east-2a
+spec: 
+  securityGroups: 
+    - sg-098f0f49e56e63fa6
+  subnet: subnet-06200eeaa89342d7c
+---
+apiVersion: crd.k8s.amazonaws.com/v1alpha1
+kind: ENIConfig
+metadata: 
+  name: us-east-2b
+spec: 
+  securityGroups: 
+    - sg-098f0f49e56e63fa6
+  subnet: subnet-0b1bf553a965e330d
+---
+apiVersion: crd.k8s.amazonaws.com/v1alpha1
+kind: ENIConfig
+metadata: 
+  name: us-east-2c
+spec: 
+  securityGroups: 
+    - sg-098f0f49e56e63fa6
+  subnet: subnet-03d92bf92a6e5bff0
